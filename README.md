@@ -3,6 +3,7 @@
 Esta es mi resolución del repositorio 
 https://github.com/anthony-rosado/invoice-recorder-challenge-sample#invoice-recorder-challenge-sample-v10-es
 
+Base de datos utilizada: [aqui](https://github.com/fernando5324/Challenge_Sample_dev/blob/ac2cd3c4dc6b7ecc092bfc071e1633a7f43cef8d/Base%20de%20datos.sql)
 
 ### Función 1:
 Utilice el endpoint ya existente y agregue los campos serie, número, tipo de comprobante y moneda. También cree un nuevo endpoint para actualizar los registros ya guardados con los del campo xml_content.
@@ -26,4 +27,4 @@ Se creó un nuevo endpoint con los filtros serie, número y por un rango de fech
 Me tomo más tiempo entender el proyecto y el uso de la autentificación por JWT, ya que era necesario iniciar sesión primero para poder hacer las consultas. Gracias por la oportunidad.
 
 
-Base de datos utilizada: [aqui](https://github.com/fernando5324/Challenge_Sample_dev/blob/ac2cd3c4dc6b7ecc092bfc071e1633a7f43cef8d/Base%20de%20datos.sql)
+
