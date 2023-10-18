@@ -40,11 +40,12 @@ class SaveVoucher implements ShouldQueue
         $user = $item['user'];
 
         $vouchers = [];
+
         foreach ($xmlContents as $xmlContent) {
-            $vouchers[] = $this->storeVoucherFromXmlContent($xmlContent, $user);
+            $vouchers[] = $this->voucherService->storeVoucherFromXmlContent($xmlContent, $user);
         }
 
-        $mail = new VouchersCreatedMail($vouchers,$voucher, $user);
+        $mail = new VouchersCreatedMail($vouchers, $user);
         Mail::to($user->email)->send($mail);
 
         return $vouchers;

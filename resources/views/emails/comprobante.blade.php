@@ -20,21 +20,6 @@
         </ul>
     @endforeach
 
-
-    @if (count($comprobantes_no_guardados) != 0)
-        <h2>Comprobantes no registrados</h2>
-        @foreach ($comprobantes_no_guardados as $comprobante)
-            <ul>
-                <li>Nombre del Emisor: {{ $comprobante->issuer_name }}</li>
-                <li>Tipo de Documento del Emisor: {{ $comprobante->issuer_document_type }}</li>
-                <li>Monto Total: {{ $comprobante->total_amount }}</li>
-
-                <li>Motivo: {{ $comprobante->message_error }}</li>
-
-            </ul>
-        @endforeach
-    @endif
-
     <p>¡Gracias por usar nuestro servicio!</p>
 </body>
 
