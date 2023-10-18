@@ -1,8 +1,7 @@
-# Invoice Recorder Challenge Sample (v1.0) [ES]
+# Invoice Recorder Challenge Sample - Desarrollo
 
 Esta es mi resolución del repositorio 
 https://github.com/anthony-rosado/invoice-recorder-challenge-sample#invoice-recorder-challenge-sample-v10-es
-
 
 
 ### Función 1:
