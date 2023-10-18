@@ -26,6 +26,7 @@ Esta función me tomo mucho más tiempo de lo esperado, ya que quería adaptarme
 Hice la suma total de los comprobantes con el tipo de monera de PEN y USD por separado para mostrarlo.
 
 Ruta: api/v1/vouchers/total_mont
+
 Metodo: GET
 
 ### Función 4:
