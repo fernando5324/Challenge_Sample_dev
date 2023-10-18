@@ -140,6 +140,12 @@ class VoucherService
         $voucherType = (string) $xml->xpath('//cbc:InvoiceTypeCode')[0];
         $currency_type = (string) $xml->xpath('//cbc:DocumentCurrencyCode')[0];
 
+        $exists_voucher = Voucher::where('voucher_serie',$voucherSerie)->where('voucher_number',$voucherNumber)->first();
+        
+        if($exists_voucher != null){
+            return $exists_voucher;
+        }
+
         $voucher = new Voucher([
             'voucher_serie' => $voucherSerie,
             'voucher_number' => $voucherNumber,
