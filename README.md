@@ -26,3 +26,4 @@ Se creó un nuevo endpoint con los filtros serie, número y por un rango de fech
 Me tomo más tiempo entender el proyecto y el uso de la autentificación por JWT, ya que era necesario iniciar sesión primero para poder hacer las consultas. Gracias por la oportunidad.
 
 
+Base de datos utilizada: [aqui](https://github.com/fernando5324/Challenge_Sample_dev/blob/ac2cd3c4dc6b7ecc092bfc071e1633a7f43cef8d/Base%20de%20datos.sql)
