@@ -25,9 +25,8 @@ Esta función me tomo mucho más tiempo de lo esperado, ya que quería adaptarme
 ### Función 3:
 Hice la suma total de los comprobantes con el tipo de monera de PEN y USD por separado para mostrarlo.
 
-Ruta: api/v1/vouchers/total_mont
-
-Metodo: GET
+	Ruta: api/v1/vouchers/total_mont
+	Metodo: GET
 
 ### Función 4:
 Note que agregar la configuración que por cada consulta revise si hay el campo deleted_at es null para no mostrarlo. Lo que hice fue que al eliminar solo se agrega la fecha actual a ese campo y por defecto no se mostraría en ninguna consulta.
